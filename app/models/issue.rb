@@ -6,4 +6,5 @@ class Issue < ActiveRecord::Base
   validates_numericality_of :no_followers, allow_blank: true
 
   validates_with Yesnovalidator
+  belongs_to :project
 end
