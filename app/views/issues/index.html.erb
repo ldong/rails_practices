@@ -6,9 +6,9 @@
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>No followers</th>
+      <th>Title <%=link_to "sort", issues_path(sort: "title")%></th>
+      <th>Description <%=link_to "sort", issues_path(sort: "description")%></th>
+      <th>No followers <%=link_to "sort", issues_path(sort: "no_followers")%></th>
       <th colspan="3"></th>
     </tr>
   </thead>
