@@ -8,3 +8,5 @@ class Issue < ActiveRecord::Base
   validates_with Yesnovalidator
   belongs_to :project
 end
+
+
